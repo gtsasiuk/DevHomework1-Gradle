@@ -3,7 +3,7 @@ import com.google.gson.GsonBuilder;
 
 public class ShowMyName {
     public static void main(String[] args) {
-        FullName fullName = new FullName("Yevhenii", "Tsasiuk","Maven");
+        FullName fullName = new FullName("Yevhenii", "Tsasiuk","Gradle");
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String json = gson.toJson(fullName);
         System.out.println(json);
